@@ -1,0 +1,7 @@
+node_modules/
+dist/               
+.DS_Store        .env.local           .env.development.local 
+.env.test.local   .env.production.local 
+.env                .env.development      .env.test 
+.env.production     .vscode/             coverage/          
+.idea/            .eslintcache        .next/              out/                          

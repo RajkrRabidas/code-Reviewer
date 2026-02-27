@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Code Editor Styles */
+.react-simple-code-editor__textarea {
+  background: transparent !important;
+  color: inherit !important;
+  z-index: 1;
+}
+
+.react-simple-code-editor__pre {
+  background: transparent !important;
+}
+
+.react-simple-code-editor__pre code {
+  background: transparent !important;
+}
+
+/* Syntax Highlighting */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6b7280;
+}
+
+.token.punctuation {
+  color: #d1d5db;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: #60a5fa;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #34d399;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string {
+  color: #fbbf24;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Smooth transitions */
+button {
+  transition: all 0.2s ease;
+}
+
+input, select, textarea {
+  transition: all 0.2s ease;
+}
+
+.main {
+  margin: auto;
+  padding: .8rem 0;
+}
+
+.code-editor {
+  border-bottom: none;
+  padding: .45rem 1rem;
+}
